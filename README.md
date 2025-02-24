@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# foc.us - AI-Powered Study Focus Platform
+
+![Project Banner](https://placehold.co/1200x400/1e3a8a/white?text=foc.us%20-%20Transform%20Your%20Study%20Habits)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
+An intelligent study companion that combines productivity tools with AI-powered insights to help students maximize focus and academic performance.
+
+## Key Features
+
+### 🎯 Core Functionality
+- **Smart Study Plans** with automated scheduling based on exam dates
+- **AI-Generated Motivational Quotes** (updates every 10 seconds)
+- **Focus Timer** with study/break interval tracking
+- **Task Management** with priority levels and progress tracking
+- **Study Analytics** with visual progress reports
+- **Subject Tracking** with hourly goals and topic management
+
+### 🚀 Advanced Features
+- **Adaptive Learning Algorithm** that adjusts study plans based on performance
+- **AI-Powered Recommendations** for weak areas and study materials
+- **Focus Detection** using activity monitoring
+- **Automated Quiz Generation** from study materials
+- **Virtual Study Assistant** with natural language processing
+- **Progress Predictions** based on study patterns
+
+## Tech Stack
+
+**Frontend:**
+- React.js + Next.js (App Router)
+- TypeScript
+- Tailwind CSS + Shadcn UI
+- Zustand State Management
+
+**AI Services:**
+- LLM-powered recommendations
+- Natural Language Processing
+- Smart content generation
 
 ## Getting Started
 
-First, run the development server:
-
+1. Clone repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/yourusername/focus-study-app.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Run development server:
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Contributing
 
-## Learn More
+We welcome contributions! Please follow these guidelines:
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit changes with semantic messages
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-To learn more about Next.js, take a look at the following resources:
+## License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Distributed under the MIT License. See `LICENSE` for more information.
